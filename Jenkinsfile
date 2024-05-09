@@ -15,7 +15,7 @@ environment {
         ANYPOINT_CREDENTIALS = credentials('anypoint') 
       }
       steps {
-        bat 'mvn deploy  -DmuleDeploy   -Denv=Sandbox -Duser="%ANYPOINT_CREDENTIALS_USR%"  -Dpass="%ANYPOINT_CREDENTIALS_PSW%" '
+        bat 'mvn deploy  -DmuleDeploy   -Denv=dev -Duser="%ANYPOINT_CREDENTIALS_USR%"  -Dpass="%ANYPOINT_CREDENTIALS_PSW%" '
       }
     }
 
