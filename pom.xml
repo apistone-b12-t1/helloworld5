@@ -39,7 +39,7 @@
 						<username>${user}</username>
      					 <password>${pass}</password>
 						
-						<applicationName>${env}-helloworld</applicationName>
+						<applicationName>${env}-helloworld5</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 					</cloudhub2Deployment>
